@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyrouthpoly - Beirut Edition Monopoly</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://example.com/beirut-hero.jpg');
+            background-size: cover;
+            height: 70vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        .landmark-card {
+            transition: transform 0.3s;
+        }
+        .landmark-card:hover {
+            transform: translateY(-10px);
+        }
+        .lebanese-red {
+            background-color: #ed1c24;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark lebanese-red">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="cedar-tree-icon.png" alt="Logo" width="30" class="d-inline-block align-text-top">
+            Beyrouthpoly
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#buy">Buy</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container text-center">
+        <h1 class="display-4 mb-4">Beyrouthpoly</h1>
+        <p class="lead">The Official Monopoly Edition of Beirut</p>
+        <button class="btn btn-light btn-lg">Pre-order Now</button>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Explore Beirut's Landmarks</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card landmark-card">
+                    <img src="hamra-street.jpg" class="card-img-top" alt="Hamra Street">
+                    <div class="card-body">
+                        <h5 class="card-title">Hamra Street</h5>
+                        <p class="card-text">The cultural and commercial heart of Beirut. Collect rent from cafes and bookshops!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card landmark-card">
+                    <img src="pigeon-rocks.jpg" class="card-img-top" alt="Pigeon Rocks">
+                    <div class="card-body">
+                        <h5 class="card-title">Pigeon Rocks</h5>
+                        <p class="card-text">Beirut's iconic natural landmark - the most expensive property on the board!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card landmark-card">
+                    <img src="downtown.jpg" class="card-img-top" alt="Downtown Beirut">
+                    <div class="card-body">
+                        <h5 class="card-title">Downtown Beirut</h5>
+                        <p class="card-text">Rebuild the city center with hotels and businesses.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Game Features -->
+<section id="features" class="py-5 lebanese-red text-white">
+    <div class="container">
+        <h2 class="text-center mb-5">Game Features</h2>
+        <div class="row g-4">
+            <div class="col-md-3 text-center">
+                <h3><i class="bi bi-bank"></i></h3>
+                <h4>Lebanese Lira</h4>
+                <p>Play with authentic Lebanese currency design</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3><i class="bi bi-dice-5"></i></h3>
+                <h4>Localized Cards</h4>
+                <p>Chance cards with Beirut-themed challenges</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3><i class="bi bi-building"></i></h3>
+                <h4>40+ Locations</h4>
+                <p>All major Beirut neighborhoods included</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h3><i class="bi bi-translate"></i></h3>
+                <h4>Bilingual</h4>
+                <p>English and Arabic versions available</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2023 Beyrouthpoly. All rights reserved.<br>
+        Contact: info@beyrouthpoly.com</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
